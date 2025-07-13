@@ -25,26 +25,8 @@ export default function About() {
         <h1 className='text-2xl font-bold text-center'>Pilih Menu</h1>
       </section>
 
-      <section className="mx-12 py-12">
-        <h2 className="text-2xl font-bold mb-4 text-blue-600">About</h2>
-        <p className="mb-6 text-gray-700">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio recusandae adipisci similique veniam consectetur quae, incidunt velit quo totam delectus dolore quas architecto rerum ipsa alias corporis non provident tempora!
-        </p>
-        <h2 className="text-2xl font-bold mb-4 text-blue-600">Visi & Misi</h2>
-        <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, at veniam deleniti necessitatibus voluptas blanditiis ex quaerat ea ratione autem omnis pariatur magni, consequatur earum et officiis libero laborum? Illum.
-          </li>
-          <li>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis minima possimus, facilis maxime officia ratione eveniet nemo optio? Ex deleniti dignissimos exercitationem quis nemo, at in rem odio soluta inventore?
-          </li>
-        </ul>
-      </section>
-
       <section className="bg-gray-50 py-12">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 text-blue-600 text-center">Tim Kami</h2>
-          <div className="flex flex-wrap justify-center gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
             {team.map((member) => (
               <div
                 key={member.name}
@@ -63,7 +45,6 @@ export default function About() {
               </div>
             ))}
           </div>
-        </div>
       </section>
     </main>
   );

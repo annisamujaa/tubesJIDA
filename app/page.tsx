@@ -4,7 +4,7 @@ export default function Home() {
     <main className="min-h-screen">
       <section className="">
         <Image
-          src="/hero-image.png"
+          src="/images/hero-image.png"
           alt="Hero Image"
           width={1920}
           height={1080}
